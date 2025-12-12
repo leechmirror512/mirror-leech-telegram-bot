@@ -39,7 +39,7 @@ BOT_PM = ""
 # =======================
 # GDrive Tools
 # =======================
-GDRIVE_ID = "0ABtiIq2dRqvhUk9PVA"
+GDRIVE_ID = "0AG3Rzgl5yLTwUk9PVA"
 IS_TEAM_DRIVE = True
 STOP_DUPLICATE = True
 INDEX_URL = "https://backlever.knighthackers.workers.dev/0:"
