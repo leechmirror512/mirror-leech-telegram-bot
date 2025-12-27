@@ -25,6 +25,8 @@ kurigram
 python-magic
 requests
 telegraph
+pyrogram
+tgcrypto
 tenacity
 tgcrypto
 urllib3
