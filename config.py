@@ -39,7 +39,7 @@ BOT_PM = ""
 # =======================
 # GDrive Tools
 # =======================
-GDRIVE_ID = "1zPJtYcwOno_HOxF9Cbqx6rbd7oYvNxN0"
+GDRIVE_ID = "1rdd69PLmupBKVNj7GJhmJcg8CVQUHTvt"
 IS_TEAM_DRIVE = True
 STOP_DUPLICATE = True
 INDEX_URL = "https://mirror.leechmirror512.workers.dev/0:"
