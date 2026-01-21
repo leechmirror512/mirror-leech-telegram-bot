@@ -24,7 +24,7 @@ STREAMWISH_API = ""
 EXCLUDED_EXTENSIONS = ""
 INCOMPLETE_TASK_NOTIFIER = True
 YT_DLP_OPTIONS = ""
-USE_SERVICE_ACCOUNTS = False
+USE_SERVICE_ACCOUNTS = True
 NAME_SUBSTITUTE = ""
 FFMPEG_CMDS = {}
 UPLOAD_PATHS = {}
@@ -39,10 +39,10 @@ BOT_PM = ""
 # =======================
 # GDrive Tools
 # =======================
-GDRIVE_ID = "0AJ9O-awLJz76Uk9PVA"
-IS_TEAM_DRIVE = True
+GDRIVE_ID = "1zPJtYcwOno_HOxF9Cbqx6rbd7oYvNxN0"
+IS_TEAM_DRIVE = False
 STOP_DUPLICATE = True
-INDEX_URL = "https://backlever.knighthackers.workers.dev/0:"
+INDEX_URL = "https://mirror.leechmirror512.workers.dev/0:"
 
 # =======================
 # Rclone
