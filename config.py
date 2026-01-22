@@ -39,10 +39,10 @@ BOT_PM = ""
 # =======================
 # GDrive Tools
 # =======================
-GDRIVE_ID = "1rdd69PLmupBKVNj7GJhmJcg8CVQUHTvt"
+GDRIVE_ID = "0AJA01fwkmmFjUk9PVA"
 IS_TEAM_DRIVE = True
 STOP_DUPLICATE = True
-INDEX_URL = "https://mirror.leechmirror512.workers.dev/0:"
+INDEX_URL = "https://backlever.knighthackers.workers.dev/0:"
 
 # =======================
 # Rclone
