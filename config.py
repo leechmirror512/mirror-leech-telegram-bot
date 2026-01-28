@@ -42,7 +42,7 @@ BOT_PM = ""
 GDRIVE_ID = "0AJA01fwkmmFjUk9PVA"
 IS_TEAM_DRIVE = True
 STOP_DUPLICATE = True
-INDEX_URL = "https://backlever.knighthackers.workers.dev/0:"
+INDEX_URL = "https://world.knighthackers.workers.dev/0:"
 
 # =======================
 # Rclone
