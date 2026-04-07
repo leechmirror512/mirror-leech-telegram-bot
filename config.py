@@ -40,7 +40,7 @@ BOT_PM = ""
 # GDrive Tools
 # =======================
 GDRIVE_ID = "1V_Kzyor_r7z_KUUPGDqrVgpZuNcCqg1b"
-IS_TEAM_DRIVE = True
+IS_TEAM_DRIVE = False
 STOP_DUPLICATE = True
 INDEX_URL = "https://baacklever.leechmirror512.workers.dev/0:"
 
