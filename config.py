@@ -24,7 +24,7 @@ STREAMWISH_API = ""
 EXCLUDED_EXTENSIONS = ""
 INCOMPLETE_TASK_NOTIFIER = True
 YT_DLP_OPTIONS = ""
-USE_SERVICE_ACCOUNTS = False
+USE_SERVICE_ACCOUNTS = True
 NAME_SUBSTITUTE = ""
 FFMPEG_CMDS = {}
 UPLOAD_PATHS = {}
@@ -39,7 +39,7 @@ BOT_PM = ""
 # =======================
 # GDrive Tools
 # =======================
-GDRIVE_ID = "0ACFZmjd7dQgdUk9PVA"
+GDRIVE_ID = "1V_Kzyor_r7z_KUUPGDqrVgpZuNcCqg1b"
 IS_TEAM_DRIVE = True
 STOP_DUPLICATE = True
 INDEX_URL = "https://baacklever.leechmirror512.workers.dev/0:"
