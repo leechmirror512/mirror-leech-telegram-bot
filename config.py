@@ -99,7 +99,8 @@ UPSTREAM_BRANCH = "master"
 # =======================
 # Leech
 # =======================
-LEECH_SPLIT_SIZE = ""
+LEECH_SPLIT_SIZE = "0"
+LEECH_SPLIT_SIZE = 0
 AS_DOCUMENT = ""
 EQUAL_SPLITS = ""
 MEDIA_GROUP = ""
