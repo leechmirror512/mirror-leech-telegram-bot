@@ -129,27 +129,41 @@ QUEUE_ALL = "0"
 QUEUE_DOWNLOAD = ""
 QUEUE_UPLOAD = ""
 
-# =======================
-# Limits
-# =======================
-STORAGE_THRESHOLD = ""
-TORRENT_LIMIT = ""
-DIRECT_LIMIT = ""
-YTDLP_LIMIT = ""
-GDRIVE_LIMIT = ""
-MEGA_LIMIT = ""
-LEECH_LIMIT = ""
-MAX_PLAYLIST = ""
-CLONE_LIMIT = ""
+# qBittorrent / Aria2c
+TORRENT_TIMEOUT = 0
+BASE_URL = ""
+BASE_URL_PORT = 0
+SERVER_PORT = 0
+WEB_PINCODE = False
 
-# =======================
+# Limits
+STORAGE_THRESHOLD = 0
+TORRENT_LIMIT = 0
+DIRECT_LIMIT = 0
+YTDLP_LIMIT = 0
+GDRIVE_LIMIT = 0
+MEGA_LIMIT = 0
+LEECH_LIMIT = 0
+MAX_PLAYLIST = 0
+CLONE_LIMIT = 0
+
 # Group Features
-# =======================
-USER_MAX_TASKS = ""
-ENABLE_RATE_LIMIT = ""
-ENABLE_MESSAGE_FILTER = ""
-STOP_DUPLICATE_TASKS = ""
-DISABLE_DRIVE_LINK = ""
+USER_MAX_TASKS = 0
+ENABLE_RATE_LIMIT = False
+ENABLE_MESSAGE_FILTER = False
+STOP_DUPLICATE_TASKS = False
+DISABLE_DRIVE_LINK = False
+
+# Extra
+DISABLE_LEECH = False
+DELETE_LINKS = False
+
+# RSS
+RSS_DELAY = 600
+RSS_SIZE_LIMIT = 0
+
+# Torrent Search
+SEARCH_LIMIT = 0
 
 # =======================
 # Extra
