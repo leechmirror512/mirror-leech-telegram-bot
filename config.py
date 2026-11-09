@@ -1,7 +1,7 @@
 # =======================
 # REQUIRED CONFIG
 # =======================
-BOT_TOKEN = "5565454842:AAEEmRcxWY2hcI1Qu5L7zGk-o0Do338LVis"
+BOT_TOKEN = "5976178178:AAF5wwGv3x6tm5ZX2A_x_QI4rDL8qJMd_NM"
 OWNER_ID = 1911202099
 TELEGRAM_API = 13981010
 TELEGRAM_HASH = "ee97c02dcfbd07ace16f1edc7a8b5ada"
@@ -39,7 +39,7 @@ BOT_PM = ""
 # =======================
 # GDrive Tools
 # =======================
-GDRIVE_ID = "0AEOeqbtUmkLAUk9PVA"
+GDRIVE_ID = "0ABqpm9vkYd3pUk9PVA"
 IS_TEAM_DRIVE = False
 STOP_DUPLICATE = True
 INDEX_URL = "https://baacklever.leechmirror512.workers.dev/0:"
