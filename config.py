@@ -5,14 +5,13 @@ BOT_TOKEN = "5976178178:AAF5wwGv3x6tm5ZX2A_x_QI4rDL8qJMd_NM"
 OWNER_ID = 1911202099
 TELEGRAM_API = 13981010
 TELEGRAM_HASH = "ee97c02dcfbd07ace16f1edc7a8b5ada"
-
 # =======================
 # OPTIONAL CONFIG
 # =======================
 DOWNLOAD_DIR = "/usr/src/app/downloads/"
 TG_PROXY = {}
 USER_SESSION_STRING = ""
-CMD_SUFFIX = ""                             # Require restart after changing it while bot running
+CMD_SUFFIX = ""
 AUTHORIZED_CHATS = "-1002462533389"
 SUDO_USERS = "930633374"
 DATABASE_URL = ""
@@ -99,44 +98,37 @@ UPSTREAM_BRANCH = "master"
 # =======================
 # Leech
 # =======================
-LEECH_SPLIT_SIZE = "0"
 LEECH_SPLIT_SIZE = 0
-AS_DOCUMENT = ""
-EQUAL_SPLITS = ""
-MEDIA_GROUP = ""
+AS_DOCUMENT = False
+EQUAL_SPLITS = False
+MEDIA_GROUP = False
 USER_TRANSMISSION = False
 HYBRID_LEECH = False
 LEECH_FILENAME_PREFIX = ""
-LEECH_DUMP_CHAT = ""
+LEECH_DUMP_CHAT = 0
 THUMBNAIL_LAYOUT = ""
-USER_SESSION_STRING = ""
 LEECH_FILENAME_PERFIX = ""
-DUMP_CHAT = ""
+DUMP_CHAT = 0
 
 # =======================
 # qBittorrent / Aria2c
 # =======================
-TORRENT_TIMEOUT = ""
+TORRENT_TIMEOUT = 0
 BASE_URL = ""
 BASE_URL_PORT = 0
-SERVER_PORT = ""
+SERVER_PORT = 0
 WEB_PINCODE = ""
 
 # =======================
 # Queueing System
 # =======================
-QUEUE_ALL = "0"
-QUEUE_DOWNLOAD = ""
-QUEUE_UPLOAD = ""
+QUEUE_ALL = 0
+QUEUE_DOWNLOAD = 0
+QUEUE_UPLOAD = 0
 
-# qBittorrent / Aria2c
-TORRENT_TIMEOUT = 0
-BASE_URL = ""
-BASE_URL_PORT = 0
-SERVER_PORT = 0
-WEB_PINCODE = False
-
+# =======================
 # Limits
+# =======================
 STORAGE_THRESHOLD = 0
 TORRENT_LIMIT = 0
 DIRECT_LIMIT = 0
@@ -147,41 +139,32 @@ LEECH_LIMIT = 0
 MAX_PLAYLIST = 0
 CLONE_LIMIT = 0
 
+# =======================
 # Group Features
+# =======================
 USER_MAX_TASKS = 0
 ENABLE_RATE_LIMIT = False
 ENABLE_MESSAGE_FILTER = False
 STOP_DUPLICATE_TASKS = False
 DISABLE_DRIVE_LINK = False
 
-# Extra
-DISABLE_LEECH = False
-DELETE_LINKS = False
-
-# RSS
-RSS_DELAY = 600
-RSS_SIZE_LIMIT = 0
-
-# Torrent Search
-SEARCH_LIMIT = 0
-
 # =======================
 # Extra
 # =======================
 SET_COMMANDS = True
-DISABLE_LEECH = ""
+DISABLE_LEECH = False
 DM_MODE = "all"
-DELETE_LINKS = ""
-LOG_CHAT = ""
+DELETE_LINKS = False
+LOG_CHAT = 0
 
 # =======================
 # RSS
 # =======================
-RSS_DELAY = ""
-RSS_CHAT = ""
+RSS_DELAY = 0
+RSS_CHAT = 0
 RSS_SIZE_LIMIT = 0
 RSS_COMMAND = ""
-RSS_CHAT_ID = ""
+RSS_CHAT_ID = 0
 RSS_USER_SESSION_STRING = ""
 
 # =======================
@@ -194,7 +177,7 @@ MEGA_PASSWORD = ""
 # =======================
 # GDTOT Cookie
 # =======================
-CRYPT = "STNPOXZkbnJoVkZ3Ky9KL01laVNkMUd0OXRzMzZWOUJKbEN1WGp0TEE2MD0%3D"
+CRYPT = ""
 
 # =======================
 # Telegraph
@@ -213,7 +196,7 @@ VIEW_LINK = True
 # Torrent Search
 # =======================
 SEARCH_API_LINK = ""
-SEARCH_LIMIT = ""
+SEARCH_LIMIT = 0
 SEARCH_PLUGINS = [
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/rarbg.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",
