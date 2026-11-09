@@ -125,7 +125,7 @@ WEB_PINCODE = ""
 # =======================
 # Queueing System
 # =======================
-QUEUE_ALL = ""
+QUEUE_ALL = "0"
 QUEUE_DOWNLOAD = ""
 QUEUE_UPLOAD = ""
 
